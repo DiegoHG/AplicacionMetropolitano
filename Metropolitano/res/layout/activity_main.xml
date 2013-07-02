@@ -1,0 +1,87 @@
+   
+<TableLayout    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/metropolitanofondo">
+    
+    
+    <TableRow>
+		<Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tarjeta"
+            android:text="@string/tarjeta" />
+		
+		<Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_paradero"
+            android:text="@string/paraderos" />
+        
+		<Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_bus"
+            android:text="@string/tarifario" />
+
+    </TableRow>
+ 
+    <TableRow>
+
+		<Button
+		    android:id="@+id/button4"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:drawableTop="@drawable/ic_bus"
+		    android:text="@string/servicios" />
+		
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_viaje"
+            android:onClick="consultarViajeTask"
+            android:text="@string/viaje" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_planifica"
+            android:text="@string/planifica" />
+
+
+    </TableRow>
+ 
+    <TableRow>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_social"
+            android:text="@string/destacados" />
+        
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_ayuda"
+            android:text="@string/ayuda" />        
+
+    </TableRow>
+
+    
+</TableLayout>

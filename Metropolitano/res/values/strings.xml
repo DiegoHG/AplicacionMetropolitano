@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Metropolitano</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">ListView</string>
+    
+    <string name="tarjeta">Tarjeta</string>
+    <string name="paraderos">Paraderos</string>
+    <string name="tarifario">Tarifario</string>
+    <string name="servicios">Servicios</string>
+    <string name="viaje">Tu Viaje</string>
+    <string name="planifica">Planifica</string>
+    <string name="destacados">Lugares Destacados</string>
+    <string name="ayuda">Conoce Metropolitano</string>
+    
+    <string name="seleccioneParaderoIni">Seleccione Paradero Inicial</string>
+    <string name="seleccioneParaderoFin">Seleccione Paradero Final</string>
+	<string name="selecciona_una_opcion"></string>
+	<string name="paradero_seleccionado">Paradero seleccionado:</string>
+	<string name="siguiente">Siguiente</string>
+	
+	<string name="paso1">Paso 1</string>
+	<string name="paso2" style="bold">Paso 2</string>
+	<string name="paso3">Paso 3</string>
+	<string name="paso4">Paso 4</string>
+	<string name="paso5">Paso 5</string>
+	
+	<string name="desde">Desde: </string>
+	<string name="hasta">Hasta: </string>
+	
+	<string name="universitario">Universitario</string>
+	<string name="dia">Día</string>
+	<string name="hora">Hora</string>
+	
+	<string name="imagen_ejemplo">Mapa ejemplo</string>
+	<string name="precio">Precio:</string>
+</resources>

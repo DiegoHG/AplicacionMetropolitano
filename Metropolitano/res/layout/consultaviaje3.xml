@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical" >
+	
+	<LinearLayout
+	    android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:orientation="vertical" >
+		<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#01407B">
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#F9FD02" 
+			android:textSize="18sp"
+			android:textStyle="bold"
+            android:text="@string/paso2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+               
+        <TextView
+        android:id="@+id/ParaderoInicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF" 
+        android:layout_marginTop="20dp"
+        android:text="" />
+        
+        </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/D1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccioneParaderoFin" />
+   
+    </LinearLayout>
+    
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_weight="140"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >	
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    
+                    <!-- Contenido del 1º Tab -->  
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+					    
+						<ListView android:id="@+id/LstOpciones" 
+							android:layout_width="match_parent" 
+							android:layout_height="wrap_content" />
+
+					</LinearLayout>
+					
+                    <!-- Fin de contenido del 1º Tab -->
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <!-- Contenido del 2º Tab -->
+                    <TextView android:id="@+id/textView2"
+                      android:text=""
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+                    <!-- Fin de contenido del 2º Tab -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <!-- Contenido del 3º Tab -->
+                    <TextView android:id="@+id/textView3"
+                      android:text=""
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+                    <!-- Fin del contenido del 3º Tab -->
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+	
+	
+	<RelativeLayout
+	    android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/paradero_seleccionado" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/ic_next"
+            android:onClick="consultarViaje4Task"
+            android:text="@string/siguiente" />
+
+        <TextView
+            android:id="@+id/LblEtiqueta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/selecciona_una_opcion"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>  
+	
+	
+	
+</LinearLayout>
