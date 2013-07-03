@@ -24,12 +24,13 @@
             android:text="@string/paraderos" />
         
 		<Button
-            android:id="@+id/button3"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/ic_bus"
-            android:text="@string/tarifario" />
+		    android:id="@+id/button3"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:drawableTop="@drawable/ic_bus"
+		    android:onClick="consultarTarifario"
+		    android:text="@string/tarifario" />
 
     </TableRow>
  

@@ -25,6 +25,7 @@
         <activity android:name="consultaViaje2"></activity>
         <activity android:name="consultaViaje3"></activity>
         <activity android:name="consultaViaje4"></activity>
+        <activity android:name="ViewPagerActivity"></activity>
     </application>
 
 </manifest>

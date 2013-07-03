@@ -25,5 +25,10 @@ public class MainActivity extends Activity {
         Intent i = new Intent(this, consultaViaje2.class );
         startActivity(i);
 	}  
+	
+	public void consultarTarifario(View view){
+		Intent i = new Intent(this, ViewPagerActivity.class );
+		startActivity(i);
+	}
 
 }
