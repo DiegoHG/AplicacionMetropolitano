@@ -59,10 +59,13 @@ public class ViewPagerActivity extends Activity {
 			View v = null;
 			switch(position){
 			case 0: 
-				v = inflater.inflate(R.layout.tarifaregular, null);
+				v = inflater.inflate(R.layout.tarifasolobustroncal, null);
 				break;
 			case 1: 
-				v = inflater.inflate(R.layout.tarifapreferencial, null);
+				v = inflater.inflate(R.layout.tarifasoloalimentador, null);
+				break;
+			case 2: 
+				v = inflater.inflate(R.layout.tarifaalimentadorytroncal, null);
 				break;
 			}
 			((ViewPager)container).addView(v,0);

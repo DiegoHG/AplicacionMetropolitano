@@ -22,7 +22,7 @@
 	<string name="siguiente">Siguiente</string>
 	
 	<string name="paso1">Paso 1</string>
-	<string name="paso2" style="bold">Paso 2</string>
+	<string name="paso2">Paso 2</string>
 	<string name="paso3">Paso 3</string>
 	<string name="paso4">Paso 4</string>
 	<string name="paso5">Paso 5</string>
@@ -36,4 +36,8 @@
 	
 	<string name="imagen_ejemplo">Mapa ejemplo</string>
 	<string name="precio">Precio:</string>
+	
+	<string name="uno">1</string>
+	<string name="dos">2</string>
+	<string name="tres">3</string>
 </resources>
