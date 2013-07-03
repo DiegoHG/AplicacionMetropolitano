@@ -31,7 +31,7 @@ public class ViewPagerActivity extends Activity {
 		@Override
 		public int getCount() {
 			// TODO Auto-generated method stub
-			return 2; //cantidad de layouts xml
+			return 3; //cantidad de layouts xml
 		}
 
 		@Override
